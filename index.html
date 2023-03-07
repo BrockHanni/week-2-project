@@ -26,8 +26,8 @@
         <!-- About Me section -->
         <section class="aboutme" id="About">
             <h2 class="sectiontitle">About me</h2>
-           
-         
+
+         <!-- adding <li> instead of <p> to add bullet points -->
                 <li>I am 24 year old student at the University of Utah, currently in a bootcamp for Web-Development</li>
                 <br>
                 <li>I've been happily married since May 2021</li>
@@ -38,58 +38,71 @@
                 <br>
                 <br>
              <section>
-                <img src="./assets/images/Me.jpg" class="me-pic">
+                <img src="./assets/images/Me.jpg" class="me-pic" atl="picture of me">
             </section>
 
 
         </section>
 
-        <section id ="Recent" class="bodysection">
+        <section id ="Recent" class="bodysectionrecent">
             <h2 class="sectiontitle">Recent Work</h2>
             <p>Here is some of the latest stuff I'm working on!</p>
-        <div class="RecentWork">
-            <section>
-                <a href ="https://brockhanni.github.io/Box/" class="link">The Magic Square</a>
-                <p>This is a magic square you can change by pressing the buttons</p>
-            </section>
-            <section>
-                <a href ="https://brockhanni.github.io/Password-Generator/" class ="link">Password Generator</a>
-                <p>This is a random Password Generator</p>
-            </section>
-            <section>
-                <a href ="https://avialmonanay.github.io/Day-At-A-Glance/" class="link">Day at a Glance</a>
-                <p>This is a day planner app a few friends and I made together</p>
-            </section>
-
-        </div>
-
-            
-            
+            <div class="RecentWork">
+                <!-- These are three links to projects I've worked on, with little info cards under them. -->
+                <section>
+                    <div> 
+                        <div class="container">
+                         <a href="https://brockhanni.github.io/Box/">
+                         <img src="./assets/images/MagicSquare.jpg" alt="Magic Square"
+                         width="150"
+                         height="100">
+                         </a>
+                          <p>This is a magic square you can change by pressing the buttons</p>
+                        </div>
+                    </div>
+                </section>
+                <section>
+                    <div class="container">
+                        <a href="https://brockhanni.github.io/Password-Generator/">
+                        <img src="./assets/images/PasswordGenerator.jpg" alt="Magic Square"
+                        width="150"
+                        height="100">
+                        </a>
+                         <p>This is a random Password Generator</p>
+                       </div>
+                    
+                </section>
+                <section>
+                    <div class="container">
+                        <a href="https://avialmonanay.github.io/Day-At-A-Glance/">
+                        <img src="./assets/images/DayAtAGlace.jpg" alt="Magic Square"
+                        width="150"
+                        height="100">  </a>
+                         <p>This is a day planner app a few friends and I made together</p>
+                       </div>
+                </section>
+            </div>
         </section>
-
+        <br>
 
         <section id="Resume" class="bodysection">
+            <!-- This section contains a link to download my resume -->
             <h2 class="sectiontitle">Resume</h2>
-            <br>
-            <br>
-            <p>Click <download src="./assets/Resume/Brock Resume (2).docx" class="link">here</download> to download my resume! </p>
-            
-            
+            <p>Click <a href="./assets/Resume/Brock Resume (2).docx" download class="link">
+                <!-- download link inside the <a> -->
+                <download src="./assets/Resume/Brock Resume (2).docx" alt="Resume">HERE</download></a> to download my resume! </p>
         </section>
-
+        <br>
         <section id="Contact" class="bodysection">
+            <!-- contact me section containing links to email me, my linkdin, as well as my phone number. -->
          <h2 class="sectiontitle">Contact Me</h2>
-         <br>
-         <br>
-         
+     
          <li> Email me at: <a href=mailto:hannibr26@gmail.com class="link">Hannibr26@gmail.com</a> </li>
+         <!-- todo: find out why mailto link isn't working. -->
          <li>Find me on <a href="https://www.linkedin.com/in/brock-hanni-803b37215/" class="link">Linkdin</a></li>
          <li>Call or Text me <a class="link">1-801-647-1286</a></li>
          
         </section>
-
-
-
 
     </main>
 

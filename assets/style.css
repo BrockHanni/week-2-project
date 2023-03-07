@@ -68,9 +68,19 @@ html{
     color:lightgrey;
     text-align: center;
     align-items: center;  
-    height:25vh
-
-   
+    height:15vh
+}
+.bodysectionrecent{
+    border-style: solid;
+    border-color:#3E72A4;
+    border-radius: 5px;
+    display:flex;
+    flex:0 0 500px;
+    flex-direction: column;
+    color:lightgrey;
+    text-align: center;
+    align-items: center;  
+    height:40vh
 }
 .link{
     color:#3E72A4;
@@ -82,4 +92,10 @@ html{
 .RecentWork{
     justify-content: center;
     display: flex;
+    
+}
+.container {
+  padding: 2px 16px;
+  image-rendering:auto;
+  size: 15px;
 }
