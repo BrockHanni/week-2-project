@@ -1,21 +1,7 @@
 *{
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
-html{
-    background-color: #273F57;
-}
-.button {
-    text-size-adjust: 30px;
-    border-style: solid;
-    border-width: 5px;
-    margin: 3px;
-    border-radius: 10%;
-    font-weight: bold;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    flex-wrap: nowrap;
-    color:#04121f;
-    border-color:#fff;
-}
+
 header {
     font-size: 20px ;
     padding: 20px;
@@ -26,6 +12,47 @@ header {
     background-repeat: no-repeat;
     height: 15vh;
 }
+.button {
+    border-style: solid;
+    border-width: 5px;
+    margin: 3px;
+    border-radius: 10%;
+    font-weight: bold;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    flex-wrap: nowrap;
+    border-color:#3E72A4;
+    color:#031322;
+    background-color: grey;
+
+}
+html{
+    background-color: #273F57;
+}
+
 .body{
     background-color: #3E72A4;
+}
+.aboutme{
+    color:#fff;
+}
+.me-pic{
+    max-height: 24vh;
+    border-color:#3E72A4;
+    border-radius: 5px;
+    border-style: solid;
+}
+.aboutme {
+    font-size: 17px;
+    height: 85vh;
+    width: 200px;
+    border-style: solid;
+    border-width: 2px;
+    border-color: #3E72A4;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 5px;
+    color:lightgrey;
+    text-align: center;
+    float: right;
+    flex: 4;
 }
