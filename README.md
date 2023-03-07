@@ -1,19 +1,12 @@
-# week-2-project
+## Hanni-Portfolio
+This website is a portfolio made for me, Brock Hanni.
+There is a link to 3 of my recent projects.
+There is a link to download my latest Resume.
+There are links to my email, and linkdin.
+There is an about me section on the right side of the screen, with a recent picture of me.
 
-AS AN employer
-I WANT to view a potential employee's deployed portfolio of work samples
-SO THAT I can review samples of their work and assess whether they're a good candidate for an open position
+Here are two screenshots, one to show the website on a computer screen, and one on a mobile device.
+![image](./assets/images/FinishedApp1.jpg)
+![image](./assets/images/FinsihedApp2.jpg)
 
-GIVEN I need to sample a potential employee's previous work
-WHEN I load their portfolio
-THEN I am presented with the developer's name, a recent photo or avatar, and links to sections about them, their work, and how to contact them
-WHEN I click one of the links in the navigation
-THEN the UI scrolls to the corresponding section
-WHEN I click on the link to the section about their work
-THEN the UI scrolls to a section with titled images of the developer's applications
-WHEN I am presented with the developer's first application
-THEN that application's image should be larger in size than the others
-WHEN I click on the images of the applications
-THEN I am taken to that deployed application
-WHEN I resize the page or view the site on various screens and devices
-THEN I am presented with a responsive layout that adapts to my viewport
+
