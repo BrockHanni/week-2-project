@@ -12,6 +12,9 @@ header {
     background-repeat: no-repeat;
     height: 15vh;
 }
+.sectiontitle{
+    text-decoration: underline;
+}
 .button {
     border-style: solid;
     border-width: 5px;
@@ -23,6 +26,7 @@ header {
     border-color:#3E72A4;
     color:#031322;
     background-color: grey;
+    text-decoration: none;
 
 }
 html{
@@ -55,4 +59,24 @@ html{
     text-align: center;
     float: right;
     flex: 4;
+}
+.bodysection{
+    border-style: solid;
+    border-color:#3E72A4;
+    border-radius: 5px;
+    padding: 8px;
+    display:flex;
+    /* Makes the boxes not overlap with about me section */
+    flex:0 0 500px;
+    flex-direction: column;
+    color:lightgrey;
+    text-align: center;
+    align-items: center;  
+   
+}
+.link{
+    color:#3E72A4;
+    border-style: solid;
+    border-radius: 5px;
+    border-width: 1px;
 }
