@@ -7,9 +7,9 @@ header {
     padding: 20px;
     text-align: center;
     background-image:url(./images/background.jpg) ;
-    background-position: center;
-    color: #374F69;
-    background-repeat: no-repeat;
+    background-position-y: center;
+    color: #fff;
+    background-repeat: repeat;
     height: 15vh;
 }
 .sectiontitle{
@@ -97,5 +97,57 @@ html{
 .container {
   padding: 2px 16px;
   image-rendering:auto;
-  size: 15px;
+  
 }
+
+.preview{
+    height: 165px;
+    width: 250px;
+}
+.preview:hover{
+    height: 200px;
+    width: 300px;}
+
+@media screen and (max-width: 1090px){
+    header {
+        font-size: 20px ;
+        padding: 20px;
+        text-align: center;
+        background-image:url(./images/background.jpg) ;
+        background-position: center;
+        color: #374F69;
+        background-repeat: no-repeat;
+        height: 15vh;
+    }
+.preview{
+    height: 75px;
+    width: 100px;
+}
+.preview:hover{
+    height: 100px;
+    width: 125px;
+}
+
+.aboutme {
+    font-size: 15px;
+    height: 78vh;
+    width: 115px;
+    border-style: solid;
+    border-width: 2px;
+    border-color: #3E72A4;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 5px;
+    color:lightgrey;
+    text-align: center;
+    float: right;
+    flex: 4;
+}
+.me-pic{
+    max-height: 120px;
+    border-color:#3E72A4;
+    border-radius: 5px;
+    border-style: solid;
+}
+}
+    
